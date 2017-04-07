@@ -1,28 +1,123 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>e-mail strefa</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+        @import url('https://fonts.googleapis.com/css?family=Lato:300');
+        /* ogolne style */
+        
+        html {
+            width: 100%;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        table {
+            border-spacing: 0;
+            table-layout: fixed;
+            margin: 0 auto;
+        }
+        
+        table td {
+            border-collapse: collapse;
+        }
+        
+        img {
+            display: block !important;
+            overflow: hidden !important;
+            max-width: 100% !important;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        @media only screen and (max-width: 590px) {
+            body {
+                width: auto !important;
+            }
+            table.table-outer {
+                width: 450px !important;
+            }
+            table.table-content {
+                width: 90% !important;
+            }
+            table.table-full {
+                width: 100% !important;
+                text-align: center !important;
+            }
+            table.table-half{
+                width: 47% !important;
+                text-align: left !important;
+            }
+            img.image {
+                width: 100% !important;
+                height: auto !important
+            }
+            tbody.mobile-hidden{
+                display: none;
+            }
+            td.section-top{
+                height: 50px !important;
+                line-height: 0px !important;
+            }
+        }
+        @media only screen and (max-width: 479px) {
+            body {
+                width: auto !important;
+            }
+            table.table-outer {
+                width: 290px !important;
+            }
+            table.table-content {
+                width: 82% !important;
+            }
+            table.table-full {
+                width: 100% !important;
+                text-align: center !important;
+            }
+            table.table-half{
+                width: 100% !important;
+                text-align: left !important;
+            }
+            img.image {
+                width: 100% !important;
+                height: auto !important
+            }
+            tbody.mobile-hidden{
+                display: none;
+            }
+            td.section-top{
+                height: 50px !important;
+                line-height: 0px !important;
+            }
+        }
+    </style>
 </head>
 
 <body style="margin:0; padding:0;">
 
-    <!-- naglowek -->
+    <!-- header -->
     <table align="center" width="90%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
         <tbody>
             <tr>
                 <td align="center">
                     <table class="table-outer" width="520" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
                         <tbody>
-                            <!-- margines gora -->
+                            <!-- margin-top -->
                             <tr>
                                 <td height="35">
                                 </td>
                             </tr>
-                            <!-- koniec margines gora -->
-                            <!-- wlasciwa zawartosc -->
+                            <!-- end margin-top -->
+                            <!-- content -->
                             <tr>
                                 <td>
                                     <!-- logo -->
@@ -30,17 +125,17 @@
                                         <tbody>
                                             <tr>
                                                 <td align="center" valign="middle">
-                                                    <img src="images/logo.png" width="135" height="21" alt="logo" style="display:block;border:0px">
+                                                    <img src="images/logo.png" width="135" height="21" alt="logo" style="display:block;border:0px" />
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!-- koniec logo-->
+                                    <!-- end logo-->
                                     <!-- separator -->
-                                    <table align="left" width="1" height="20" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
                                         <tbody>
                                             <tr>
-                                                <td style="font-size:0;line-height:0;border-collapse:collapse">
+                                                <td height="20" style="font-size:0;line-height:0;border-collapse:collapse">
                                                     <p style="padding-left:24px;">
                                                         &nbsp;
                                                     </p>
@@ -48,8 +143,8 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!-- koniec separatora-->
-                                    <!-- menu -->
+                                    <!-- end separatora-->
+                                    <!-- nav -->
                                     <table align="right" class="table-full" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
                                         <tbody>
                                             <tr>
@@ -73,24 +168,24 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!--koniec menu-->
+                                    <!--end nav-->
                                 </td>
                             </tr>
-                            <!-- koniec wlasciwa zawartosc -->
-                            <!-- margines dol-->
+                            <!-- end content -->
+                            <!-- margin-bottom-->
                             <tr>
                                 <td height="25">
                                 </td>
                             </tr>
-                            <!-- koniec margines dol -->
+                            <!-- end margin-bottom -->
                         </tbody>
                     </table>
                 </td>
             </tr>
         </tbody>
     </table>
-    <!-- koniec naglowek -->
-    <!-- baner-->
+    <!-- end header -->
+    <!-- banner-->
     <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#3b3b3b" style="background-image: url('images/baner.jpg'); background-size:cover; background-position:50% 50%; border-spacing:0; table-layout:fixed; margin:0 auto;">
         <tbody>
             <tr>
@@ -102,7 +197,7 @@
                 <td align="center" style="border-collapse:collapse;">
                     <table class="table-outer" align="center" style="border-collapse:collapse; border-spacing:0; table-layout:fixed; margin:0 auto;" width="580" border="0" cellspacing="0" cellpadding="0">
                         <tbody>
-                            <!--nagłówek-->
+                            <!--header-->
                             <tr align="center">
                                 <td height="20" style="font-family: Lato, 'Open Sans', Arial, sans-serif; font-size:39px; font-weight:300; line-height:52px; color:#ffffff; border-collapse:collapse;">
                                     Nasz magazyn
@@ -113,7 +208,7 @@
                                     Styczeń - Kwiecień 2017
                                 </td>
                             </tr>
-                            <!--koniec nagłówka-->
+                            <!--end header-->
                             <tr>
                                 <td height="5" style="border-collapse: collapse;">
 
@@ -124,7 +219,7 @@
 
                                 </td>
                             </tr>
-                            <!--Przyciski -->
+                            <!--Button -->
                             <tr align="center">
                                 <td style="border-collapse: collapse;">
                                     <table class="table-full" width="50%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
@@ -135,21 +230,21 @@
                                             <td width="25" style="border-collapse: collapse;">
 
                                             </td>
-                                            <td align="center" height="36" bgcolor="#89d460" style="border-radius: 20px; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; bagound-color: #89d460; font-weight: bold; padding-left: 15px; padding-right: 15px; border-collapse: collapse;">
+                                            <td align="center" height="36" bgcolor="#89d460" style="border-radius: 20px; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; background-color: #89d460; font-weight: bold; padding-left: 15px; padding-right: 15px; border-collapse: collapse;">
                                                 <a href="#" style="color: #ffffff; text-decoration: none;">zobacz</a>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
-                            <!--Koniec przyciski -->
-                            <!-- separator dol-->
+                            <!--end Button -->
+                            <!-- separator-bottom -->
                             <tr>
                                 <td height="150px" style="border-collapse:collapse;">
 
                                 </td>
                             </tr>
-                            <!-- koniec separator dol -->
+                            <!-- end separator-bottom  -->
                         </tbody>
                     </table>
                 </td>
@@ -161,9 +256,9 @@
             </tr>
         </tbody>
     </table>
-    <!-- koniec banera-->
-    <!--boxy pod banerem -->
-    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff border-spacing:0; table-layout:fixed; margin:0 auto;">
+    <!-- end banner-->
+    <!--box-under-banner -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
         <tbody>
             <tr>
                 <td align="center" style="border-collapse: collapse;">
@@ -176,12 +271,12 @@
                             </tr>
                             <tr>
                                 <td style="border-collapse: collapse;">
-                                    <!-- kolumna-->
+                                    <!-- column-->
                                     <table class="table-full" align="left" width="195" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
                                         <tbody style="text-align: center">
                                             <tr>
                                                 <td width="195" align="center" valign="middle" style="border-collapse: collapse; line-height:0px;">
-                                                    <img src="images/box_1_icon.png" width="40" height="44" alt="obrazek 1" style="display:block;border:0px">
+                                                    <img src="images/box_1_icon.png" width="40" height="44" alt="images 1" style="display:block;border:0px" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -190,7 +285,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
                                                     Zdjęcia
                                                 </td>
                                             </tr>
@@ -200,7 +295,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; lign-height:24px;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; line-height:24px;">
                                                     Najlepsza oferta do wszystkiego i jeszcze nawet więcej niż najlepsza.
                                                 </td>
                                             </tr>
@@ -211,13 +306,13 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!--koniec kolumna-->
-                                    <!-- kolumna-->
+                                    <!--end column-->
+                                    <!-- column-->
                                     <table class="table-full" align="left" width="195" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
                                         <tbody style="text-align: center">
                                             <tr>
                                                 <td width="195" align="center" valign="middle" style="border-collapse: collapse; line-height:0px;">
-                                                    <img src="images/box_2_icon.png" width="40" height="44" alt="obrazek 1" style="display:block;border:0px">
+                                                    <img src="images/box_2_icon.png" width="40" height="44" alt="images 1" style="display:block;border:0px" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -226,7 +321,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
                                                     Zdjęcia
                                                 </td>
                                             </tr>
@@ -236,7 +331,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; lign-height:24px;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; line-height:24px;">
                                                     Najlepsza oferta do wszystkiego i jeszcze nawet więcej niż najlepsza.
                                                 </td>
                                             </tr>
@@ -247,13 +342,13 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!--koniec kolumna-->
-                                    <!-- kolumna-->
+                                    <!--end column-->
+                                    <!-- column-->
                                     <table class="table-full" align="left" width="195" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
                                         <tbody style="text-align: center">
                                             <tr>
                                                 <td width="195" align="center" valign="middle" style="border-collapse: collapse; line-height:0px;">
-                                                    <img src="images/box_3_icon.png" width="40" height="44" alt="obrazek 1" style="display:block;border:0px">
+                                                    <img src="images/box_3_icon.png" width="40" height="44" alt="images 1" style="display:block;border:0px" />
                                                 </td>
                                             </tr>
                                             <tr>
@@ -262,7 +357,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; font-weight:600; line-height:28px; color:#89d460; border-collapse: collapse;">
                                                     Zdjęcia
                                                 </td>
                                             </tr>
@@ -272,7 +367,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center"  style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; lign-height:24px;">
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; padding: 0 10px; line-height:24px;">
                                                     Najlepsza oferta do wszystkiego i jeszcze nawet więcej niż najlepsza.
                                                 </td>
                                             </tr>
@@ -283,8 +378,134 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    <!--koniec kolumna-->
-                                    
+                                    <!--end column-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="80" style="border-collapse: collapse;">
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end kolumna -->
+
+    <!--highlighted design -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse: collapse;">
+                    <table class="table-outer" align="center" width="580" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#f7f7f7" align="center" style="border-collapse: collapse; background-color:#f7f7f7">
+                                    <!--left-kolumn-->
+                                    <table class="table-full" align="left" width="300" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody class="mobile-hidden">
+                                            <tr>
+                                                <td align="center" style="background-image: url('images/projekt_pion.jpg'); background-size:cover; background-position:0 0; border-spacing:0; table-layout:fixed; margin:0 auto;">
+
+                                                </td>
+                                                <td class="table-outer" width="0" height="635" align="center" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end left-kolumn-->
+                                    <!--right-column-->
+                                    <table class="table-full" align="left" width="200" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="border-collapse: collapse;">
+                                                    <table class="table-full" align="center" width="240" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                        <tr>
+                                                            <td style="border-collapse: collapse;">
+                                                                <table class="table-outer" align="center" width="240" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto; padding: 18px;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td height="20" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--header-->
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; border-collapse: collapse; line-height:29px;">
+                                                                                To własnie nasz najnowszy projekt
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--end header-->
+                                                                        <tr>
+                                                                            <td height="35" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--contents  header-->
+                                                                        <tr>
+                                                                            <td width="200" align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; line-height:24px; width:200px;">
+                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus sit reiciendis voluptatum aut in rem quos cupiditate laboriosam blanditiis!
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--end contents  header-->
+                                                                        <tr>
+                                                                            <td height="20" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <!--Button -->
+                                                                        <tr>
+                                                                            <td style="border-collapse: collapse;" align="left" valign="middle">
+                                                                                <table align="left" border="0" cellspacing="0" bgcolor="#89d460" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #89d460; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px;">
+                                                                                    <tr>
+                                                                                        <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                                            <a href="#" style="color: #ffffff; text-decoration: none;">Zobacz więcej</a>
+                                                                                        </td>
+                                                                                        <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                                            <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--end Button -->
+                                                                        <tr>
+                                                                            <td height="50" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; border-collapse: collapse; line-height:29px;">
+                                                                                To własnie nasz najnowszy projekt
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--end header-->
+                                                                        <tr>
+                                                                            <td height="35" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--contents  header-->
+                                                                        <tr>
+                                                                            <td width="200" align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; line-height:24px; width:200px;">
+                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus sit reiciendis voluptatum aut in rem quos cupiditate laboriosam blanditiis!
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--end contents  header-->
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end right-column-->
                                 </td>
                             </tr>
                         </tbody>
@@ -293,7 +514,1524 @@
             </tr>
         </tbody>
     </table>
-    <!--koniec boxy pod banerem -->
+    <!--end highlighted design -->
+    <!--3 columns-->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse:collapse;">
+                    <table class="table-outer" align="center" width="580" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                        <tr>
+                            <td align="center" style="border-collapse:collapse;">
+                                <!--column -->
+                                <table class="table-full" align="left" width="193" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" bgcolor="#6aba3f" style="border-collapse:collapse;">
+                                                <table class="table-content" align="center" width="180" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                To jest przykładowa column
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                Bogate funcjonowanie
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:24px;">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia odio voluptate optio provident debitis eos?
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <!--Button -->
+                                                        <tr>
+                                                            <td style="border-collapse: collapse;" align="center" valign="middle">
+                                                                <table align="center" border="0" cellspacing="0" bgcolor="#6aba3f" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #6aba3f; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px; border: 2px solid #ffffff">
+                                                                    <tr>
+                                                                        <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                            <a href="#" style="color: #ffffff; text-decoration: none;">Zobacz więcej</a>
+                                                                        </td>
+                                                                        <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                            <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <!--end Button -->
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--end column -->
+                                <!--column -->
+                                <table class="table-full" align="left" width="193" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" bgcolor="#89d460" style="border-collapse:collapse;">
+                                                <table class="table-content" align="center" width="180" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                To jest przykładowa column
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                Bogate funcjonowanie
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:24px;">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia odio voluptate optio provident debitis eos?
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <!--Button -->
+                                                        <tr>
+                                                            <td style="border-collapse: collapse;" align="center" valign="middle">
+                                                                <table align="center" border="0" cellspacing="0" bgcolor="#89d460" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #89d460; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px; border: 2px solid #ffffff">
+                                                                    <tr>
+                                                                        <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                            <a href="#" style="color: #ffffff; text-decoration: none;">Zobacz więcej</a>
+                                                                        </td>
+                                                                        <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                            <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <!--end Button -->
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--end column -->
+                                <!--column -->
+                                <table class="table-full" align="left" width="193" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" bgcolor="#6aba3f" style="border-collapse:collapse;">
+                                                <table class="table-content" align="center" width="180" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                To jest przykładowa column
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="10" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:29px;">
+                                                                Bogate funcjonowanie
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:24px;">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia odio voluptate optio provident debitis eos?
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="30" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                        <!--Button -->
+                                                        <tr>
+                                                            <td style="border-collapse: collapse;" align="center" valign="middle">
+                                                                <table align="center" border="0" cellspacing="0" bgcolor="#6aba3f" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #6aba3f; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px; border: 2px solid #ffffff">
+                                                                    <tr>
+                                                                        <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                            <a href="#" style="color: #ffffff; text-decoration: none;">Zobacz więcej</a>
+                                                                        </td>
+                                                                        <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                            <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <!--end Button -->
+                                                        <tr>
+                                                            <td height="25" style="border-collapse: collapse;">
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--end column -->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end 3 columns-->
+    <!--Events -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f7f7f7" style="baground-color:#f7f7f7 border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse:collapse;">
+                    <table class="table-outer" align="center" width="580" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                        <tr>
+                            <td align="center" bgcolor="#f7f7f7" style="border-collapse:collapse;">
+                                <!--images-->
+                                <table class="table-full" align="right" width="350" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" style="line-height:0; border-collapse:collapse;">
+                                                <img class="image" src="images/img_box_single.jpg" width="350" height="200" alt="images" style="display:block;border:0px" />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--end images-->
+                                <!--lewa column-->
+                                <table class="table-full" align="left" width="200" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" style="border-collapse: collapse;">
+                                                <table class="table-full" align="right" width="200" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" bgcolor="#f7f7f7" style="border-collapse:collapse;">
+                                                                <table class="table-content" align="left" width="200" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fied; margin 0 auto;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td height="20" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:32px; color:#262626; font-weight:300; border-collapse: collapse; line-height:58px;">
+                                                                                Events
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="10" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:300; border-collapse: collapse; line-height:24px;">
+                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, aperiam!
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="20" style="border-collapse: collapse;">
+
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--end lewa column-->
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end Events -->
+    <!--pozioma pasek -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#89d460" style="backgroud-color:#89d460; border-collapse:collapse;">
+                    <table class="table-outer" align="center" width="560" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="40" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!--napis-->
+                                    <table class="table-full" align="left" width="400" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr align="center">
+                                                <td align="left" style="font-family: Lato, 'Open Sans', Arial, sans-serif; font-size:22px; color:#ffffff; font-weight:300; border-collapse: collapse; line-height:40px;">
+                                                    Zobacz nadchodzące Events
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end napis-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="20" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:24px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!--przycisk-->
+                                    <table class="table-full" align="center" width="130" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td style="border-collapse: collapse;" align="center" valign="middle">
+                                                    <table align="center" border="0" cellspacing="0" bgcolor="#89d460" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #89d460; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px; border: 2px solid #ffffff">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                    <a href="#" style="color: #ffffff; text-decoration: none;">Sprawdź!!</a>
+                                                                </td>
+                                                                <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                    <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end przycisk-->
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="40" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end pozioma pasek -->
+    <!--przyszłe projkety -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f7f7f7" style="baground-color:#f7f7f7; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse:collapse;">
+                    <table class="table-outer" width="570" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="40" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="34" align="left" valign="middle" style="width:250px; padding-left:10px; line-height:0; border-collapse: collapse;">
+                                    <img src="images/pasek_poz.jpg" alt="pasek" width="34" height="2" style="display:block; border:0px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:19px; color:#262626; font-weight:300; border-collapse: collapse; line-height:34px; padding-top:10px; padding-left:10px;">
+                                    Przyszłe projekty
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <!--content-->
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="25" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/f_proj_1.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; font-weight:400; border-collapse: collapse; line-height:29px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Rensponsywna strona
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/f_proj_2.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; font-weight:400; border-collapse: collapse; line-height:29px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Rensponsywna strona
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/f_proj_3.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; font-weight:400; border-collapse: collapse; line-height:29px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Rensponsywna strona
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+
+                                </td>
+                            </tr>
+                            <!--end content -->
+                            <tr>
+                                <td height="50" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end przyszłe projkety -->
+    <!--wideo -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#ffffff" style="baground-color:#ffffff; border-collapse:collapse;">
+                    <table class="table-outer" width="550" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="70" class="section-top" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!--lewa kol -->
+                                    <table class="table-full" align="left" width="230" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#4f4f4f; font-weight:400; border-collapse: collapse; line-height:38px; padding:10px;">
+                                                    Nasz najnowszy najlepszy film
+                                                    <span style="font-weight:400;color:#89d460">
+                                                    Koniczenie
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <tr>
+                                                <td height="15" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; line-height:28px; padding:10px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id vitae, blanditiis ut voluptas libero?
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!-- przycisk -->
+                                            <tr>
+                                                <td style="border-collapse: collapse;" align="left" valign="middle">
+                                                    <table align="left" border="0" cellspacing="0" bgcolor="#89d460" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto; background-color: #89d460; font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; font-weight:600; border-radius:20px;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="35" align="center" valign="middle" style="font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 13px; padding-left:10px; border-collapse: collapse;">
+                                                                    <a href="#" style="color: #ffffff; text-decoration: none;">Zobacz wideo</a>
+                                                                </td>
+                                                                <td width="30" align="center" valign="middle" style=" line-height:0; border-collapse: collapse;">
+                                                                    <img src="images/przycisk_strz.png" alt="strzałka" width="4" height="8" style="display:block;border:0px" />
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--end przycisk -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- end lewa kol -->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="20" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:5px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!--right kol -->
+                                    <table class="table-full" align="right" width="300" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/video.jpg" alt="video" width="300" height="220" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end right kol -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="70" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end wideo -->
+    <!--pasek oferta -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" width="100%" bgcolor="#3b3b3b" style="background-image: url('images/duze_tlo.jpg'); background-size:cover; background-position:50% 100%; border-spacing:0; table-layout:fixed; margin:0 auto;">
+                    <table class="table-outer" align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="70" class="section-top" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <table class="table-full" align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--header-->
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:30px; color:#262626; font-weight:100; border-collapse: collapse; line-height:52px;">
+                                                    Sprawdź co możemy Ci zaoferować
+                                                </td>
+                                            </tr>
+                                            <!--end header-->
+                                            <!-- header 2 -->
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:100; border-collapse: collapse; line-height:28px;">
+                                                    Możemy dla ciebie zrobić wszystko ale też dużo i sporo więcej
+                                                </td>
+                                            </tr>
+                                            <!--end header 2-->
+                                            <tr>
+                                                <td height="35" class="section-top" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                            <!--Button -->
+                                            <tr align="center">
+                                                <td style="border-collapse: collapse;">
+                                                    <table class="table-full" width="80%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                        <tr>
+                                                            <td align="center" height="36" bgcolor="#89d460" style=" font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; background-color: #89d460; font-weight: 400; padding:8px; border-collapse: collapse;">
+                                                                <a href="#" style="color: #ffffff; text-decoration: none;">Przekonaj się sam</a>
+                                                            </td>
+                                                            <td align="center" height="36" bgcolor="#6aba3f" style=" font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; background-color: #6aba3f; font-weight: 400; padding:8px; border-collapse: collapse;">
+                                                                <a href="#" style="color: #ffffff; text-decoration: none;">Kliknij tutaj i wybierz</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--end Button -->
+                                            <tr>
+                                                <td height="10" class="section-top" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="70" class="section-top" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end pasek oferta -->
+    <!--section foto -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f7f7f7" style="baground-color:#f7f7f7; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse:collapse;">
+                    <table class="table-outer" width="550" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="30" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="34" align="left" valign="middle" style="width:250px; line-height:0; border-collapse: collapse;">
+                                    <img src="images/pasek_poz.jpg" alt="pasek" width="34" height="2" style="display:block;border:0px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:19px; color:#262626; font-weight:300; border-collapse: collapse; line-height:34px; padding-top:10px;">
+                                    Fotograsie roku 2015
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:25px; color:#262626; font-weight:300; border-collapse: collapse; line-height:45px; padding-bottom:20px;">
+                                    Najczęściej wybierane i najlepsze
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <!--content-->
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_1.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_2.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_3.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="15" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_4.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_5.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:15px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!-- column-->
+                                    <table bgcolor="#ffffff" class="table-full" align="left" width="170" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; border-spacing:0; table-layout:fied; margin 0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/n_proj_6.jpg" alt="images" width="170" height="135" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                            <!--header 1 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:21px; color:#89d460; font-weight:400; border-collapse: collapse; line-height:38px; padding-left:20px;">
+                                                    November
+                                                </td>
+                                            </tr>
+                                            <!--end header 1 -->
+                                            <!--header 2 -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:24px; padding-left:20px;">
+                                                    Lorem ipsum
+                                                </td>
+                                            </tr>
+                                            <!--endna głowek 2 -->
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; font-weight:400; border-collapse: collapse; line-height:23px; padding:20px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iste!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end column-->
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="50" style="border-collapse: collapse;">
+
+                                </td>
+                            </tr>
+                            <!--end content-->
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end section foto -->
+    <!--boxy -->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse: collapse;">
+                    <table class="table-outer" width="550" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td height="50" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td style="border-collapse: collapse;">
+                                    <!--lewa column-->
+                                    <table class="table-half" align="left" width="260" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--header -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:17px; color:#3b3b3b; font-weight:bold; border-collapse: collapse; line-height:30px;">
+                                                    Tworzenie stron
+                                                </td>
+                                            </tr>
+                                            <!--end header -->
+                                            <tr>
+                                                <td height="15" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#262626; border-collapse: collapse; line-height:22px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eveniet, facere ullam asperiores nemo ipsum!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                        </tbody>
+                                    </table>
+                                    <!--end lewa column-->
+                                    <!--separator-->
+                                    <table align="left" width="1" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0;table-layout:auto;margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td height="15" style="font-size:0;line-height:0;border-collapse:collapse">
+                                                    <p style="padding-left:24px;">
+                                                        &nbsp;
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end separator-->
+                                    <!--right column-->
+                                    <table class="table-half" align="left" width="260" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--header -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:17px; color:#3b3b3b; font-weight:bold; border-collapse: collapse; line-height:30px;">
+                                                    Szkolenia z programowania
+                                                </td>
+                                            </tr>
+                                            <!--end header -->
+                                            <tr>
+                                                <td height="15" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                            <!--description -->
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#262626; border-collapse: collapse; line-height:22px;">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eveniet, facere ullam asperiores nemo ipsum!
+                                                </td>
+                                            </tr>
+                                            <!--end description -->
+                                        </tbody>
+                                    </table>
+                                    <!--end right column-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="60" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end boxy -->
+    <!-- boxy 2-->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" style="border-collapse: collapse;">
+                    <table class="table-outer" width="580" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <!-- lewa column-->
+                                    <table class="table-full" align="left" width="290" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/podsum_1.jpg" alt="images" width="290" height="200" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <!-- content -->
+                                            <tr>
+                                                <td align="center" style="border-collapse: collapse; background-color:#f7f7f7;" bgcolor="#f7f7f7">
+                                                    <table class="table-content" align="center" width="250" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="25" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--header -->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; font-weight:bold; border-collapse: collapse; line-height:29px;">
+                                                                    Preprocesory CSS
+                                                                </td>
+                                                            </tr>
+                                                            <!--end header -->
+                                                            <!--header 2-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#b2b2b2; border-collapse: collapse; line-height:28px;">
+                                                                    LESS oraz SASS
+                                                                </td>
+                                                            </tr>
+                                                            <!--end header 2-->
+                                                            <tr>
+                                                                <td height="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--description-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; line-height:24px;">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, architecto.
+                                                                </td>
+                                                            </tr>
+                                                            <!--end description-->
+                                                            <tr>
+                                                                <td height="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--reference-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; border-collapse: collapse; line-height:28px;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">Kliknij tutaj</a>
+                                                                </td>
+                                                            </tr>
+                                                            <!--end reference-->
+                                                            <tr>
+                                                                <td height="25" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--end content -->
+                                        </tbody>
+                                    </table>
+                                    <!--end lewa column-->
+                                    <!-- right column-->
+                                    <table class="table-full" align="left" width="290" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--images -->
+                                            <tr>
+                                                <td align="center" valign="middle" style="line-height:0; border-collapse: collapse;">
+                                                    <img src="images/podsum_2.jpg" alt="images" width="290" height="200" style="display:block;border:0px" />
+                                                </td>
+                                            </tr>
+                                            <!--end images -->
+                                            <!-- content -->
+                                            <tr>
+                                                <td align="center" style="border-collapse: collapse; background-color:#ffffff;" bgcolor="#ffffff">
+                                                    <table class="table-content" align="center" width="250" border="0" cellspacing="0" cellpadding="0" style=" border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="25" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--header -->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:16px; color:#262626; font-weight:bold; border-collapse: collapse; line-height:29px;">
+                                                                    Preprocesory CSS
+                                                                </td>
+                                                            </tr>
+                                                            <!--end header -->
+                                                            <!--header 2-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:12px; color:#b2b2b2; border-collapse: collapse; line-height:28px;">
+                                                                    LESS oraz SASS
+                                                                </td>
+                                                            </tr>
+                                                            <!--end header 2-->
+                                                            <tr>
+                                                                <td height="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--description-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#262626; border-collapse: collapse; line-height:24px;">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, architecto.
+                                                                </td>
+                                                            </tr>
+                                                            <!--end description-->
+                                                            <tr>
+                                                                <td height="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                            <!--reference-->
+                                                            <tr>
+                                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; border-collapse: collapse; line-height:28px;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">Kliknij tutaj</a>
+                                                                </td>
+                                                            </tr>
+                                                            <!--end reference-->
+                                                            <tr>
+                                                                <td height="25" style="border-collapse: collapse;">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--end content -->
+                                        </tbody>
+                                    </table>
+                                    <!--end right column-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end boxy 2-->
+    <!--footer-top-->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#18191a" style="baground-color:#18191a; border-collapse: collapse;">
+                    <table class="table-outer" width="570" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:30px; border-collapse: collapse;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border-collapse: collapse;">
+                                    <table class="table-full" align="center" width="570" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <!--header -->
+                                            <tr>
+                                                <td align="center" style="font-family: 'Open Sans', Arial, sans-serif; font-size:31px; color:#f7f7f7; font-weight:100; border-collapse: collapse; line-height:56px;">
+                                                    DOŁĄCZ JUŻ DZIŚ
+                                                </td>
+                                            </tr>
+                                            <!--end header -->
+                                            <tr>
+                                                <td height="20" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                            <!--Button -->
+                                            <tr align="center">
+                                                <td style="border-collapse: collapse;">
+                                                    <table class="table-content" width="70%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:auto; margin:0 auto;">
+                                                        <tr>
+                                                            <td align="center" height="36" bgcolor="#232526" style=" font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; background-color: #232526; font-weight: 400; padding:8px; border-radius:40px 0 0 40px; border-collapse: collapse;">
+                                                                Skorzystaj z naszej bogatej oferty
+                                                            </td>
+                                                            <td align="center" height="36" bgcolor="#6aba3f" style=" font-family: 'Open Sans', Arial, sans-serif; color: #ffffff; font-size: 14px; background-color: #6aba3f; font-weight: 400; padding-left:15px; padding-right:15px; border-radius:0 40px 40px 0; border-collapse: collapse;">
+                                                                Teraz
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <!--end Button -->
+                                            <tr>
+                                                <td height="10" style="border-collapse: collapse;">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="70" style="border-collapse: collapse;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end footer-top-->
+    <!--footer-bottom-->
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="baground-color:#ffffff; border-spacing:0; table-layout:fixed; margin:0 auto;">
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#18191a" style="border-top:1px solid #3b3b3b; baground-color:#18191a; border-collapse: collapse;">
+                    <table class="table-outer" width="570" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:30px; border-collapse: collapse;">
+                                    <!--copyright-->
+                                    <table class="table-full" align="left" width="230" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="left" style="font-family: 'Open Sans', Arial, sans-serif; font-size:13px; color:#ffffff; border-collapse: collapse; line-height:28px;">
+                                                    &copy; 2015- Test copyright i więcej
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end copyright-->
+                                    <!--social-->
+                                    <table class="table-full" align="right" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="border-collapse: collapse;">
+                                                    <table width="130" border="0" cellspacing="0" cellpadding="0" style="border-spacing:0; table-layout:fixed; margin:0 auto;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" width="25" style="border-collapse: collapse; line-height:0;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">
+                                                                        <img src="images/social_1.png" alt="images" width="26" height="26" style="display:block;border:0px" />
+                                                                    </a>
+                                                                </td>
+                                                                <td align="center" width="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                                <td align="center" width="25" style="border-collapse: collapse; line-height:0;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">
+                                                                        <img src="images/social_2.png" alt="images" width="26" height="26" style="display:block;border:0px" />
+                                                                    </a>
+                                                                </td>
+                                                                <td align="center" width="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                                <td align="center" width="25" style="border-collapse: collapse; line-height:0;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">
+                                                                        <img src="images/social_3.png" alt="images" width="26" height="26" style="display:block;border:0px" />
+                                                                    </a>
+                                                                </td>
+                                                                <td align="center" width="10" style="border-collapse: collapse;">
+                                                                </td>
+                                                                <td align="center" width="25" style="border-collapse: collapse; line-height:0;">
+                                                                    <a href="#" style="color:#89d460; text-decoration:none;">
+                                                                        <img src="images/social_4.png" alt="images" width="26" height="26" style="display:block;border:0px" />
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end social-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--end footer-bottom-->
 </body>
 
 </html>
